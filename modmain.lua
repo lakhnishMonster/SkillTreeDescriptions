@@ -1,6 +1,6 @@
 --[[
-TODO:
-Make a github for this to track changes, as this will be a big long-term project.
+Github page to track changes: 
+https://github.com/lakhnishMonster/SkillTreeDescriptions
 --]]
 
 
@@ -10,9 +10,6 @@ Make a github for this to track changes, as this will be a big long-term project
 
 	GLOBAL.STRINGS.SKILLTREE.WORMWOOD.COUNT_LOCK_1_DESC = "Learn 5 left-branch skills to unlock."
 	GLOBAL.STRINGS.SKILLTREE.WORMWOOD.COUNT_LOCK_2_DESC = "Learn 5 right-branch skills to unlock."
-
-
-
 
 -------------------------------------------------------------------WILSON SKILL TREE----------------------------------------------------
 
@@ -96,7 +93,7 @@ if GLOBAL.CurrentRelease.GreaterOrEqualTo("R30_ST_WOODWOLFWORM") then
 	GLOBAL.STRINGS.SKILLTREE.WORMWOOD.MUSHROOMPLANTER_UPGRADE_DESC = "Mushrooms planted in a Mushroom Planter produce 6 mushrooms instead of 4 mushrooms."
 	GLOBAL.STRINGS.SKILLTREE.WORMWOOD.MOON_CAP_EATING_DESC = "Moon Shrooms are plantable in Mushroom Planters.\nAfter eating a Moon Shroom, you will yawn and release a sleep-inducing spore cloud.\nWhen releasing said spore cloud, your yawn action will not be interrupted."
 	
-	GLOBAL.STRINGS.SKILLTREE.WORMWOOD.SYRUPCRAFTING_DESC = "Learn to craft Ipecaca Syrup to induce pooping in Pigmen, Werepigs, and Beefalo.\nThe Ipecaca Syrup causes said mobs to panic while pooping every 3 seconds for a total of 15 poop and each poop deals 5 damage to said mobs."
+	GLOBAL.STRINGS.SKILLTREE.WORMWOOD.SYRUPCRAFTING_DESC = "Learn to craft Ipecaca Syrup to induce pooping in Pigmen, Werepigs, and Beefalo.\nThe Ipecaca Syrup causes said mobs to panic while pooping every 3 seconds.\nThey will produce 15 poop total and each poop deals 5 damage to said mobs."
 	
 	GLOBAL.STRINGS.SKILLTREE.WORMWOOD.BLOOMING_SPEED1_DESC = "Stage 1 and 2 bloom requires 10% less bloomness to reach the next stage.\n432 bloomness is required per stage (default 480)."
 	GLOBAL.STRINGS.SKILLTREE.WORMWOOD.BLOOMING_SPEED2_DESC = "Stage 1 and 2 bloom requires 25% less bloomness to reach the next stage.\n360 bloomness is required per stage (default 480)."
@@ -108,7 +105,7 @@ if GLOBAL.CurrentRelease.GreaterOrEqualTo("R30_ST_WOODWOLFWORM") then
 	GLOBAL.STRINGS.SKILLTREE.WORMWOOD.BLOOMING_FARMRANGE1_DESC = "While in full bloom, tend farm plants within a 1.5 tile range (default is 1 tile).\nHarvest farm plants 50% faster."
 	
 	GLOBAL.STRINGS.SKILLTREE.WORMWOOD.BLOOMING_TRAPBRAMBLE_DESC = "While in full bloom, reset Bramble Traps in 1.5 tile radius.\nBramble Traps have a 3 second cooldown before auto-resetting."
-	--GLOBAL.STRINGS.SKILLTREE.WORMWOOD.ARMOR_BRAMBLE_DESC = "Bramble Husk will release spikes when you hit your target 3 times without being attacked."		
+	GLOBAL.STRINGS.SKILLTREE.WORMWOOD.ARMOR_BRAMBLE_DESC = "Bramble Husk will release spikes when you hit your target 3 times without being attacked. Said spikes deal 22 AoE damage."		
 	
 	GLOBAL.STRINGS.SKILLTREE.WORMWOOD.BUGS_DESC = "Butterflies will no longer fly away from you.\nYou can safely harvest honey from Bee Boxes.\nKiller bees won't leave their hives or attack you unless provoked."
 
