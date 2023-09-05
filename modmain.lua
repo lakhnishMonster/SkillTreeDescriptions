@@ -3,6 +3,8 @@ Github page to track changes:
 https://github.com/lakhnishMonster/SkillTreeDescriptions
 
 TODO V1.8: 
+GENERAL:
+[DONE]Where applicable, change percent faster to less time and list the total time.
 
 WILSON:
 [DONE] Add alignment damage to Wilson's skill tree.
@@ -20,8 +22,8 @@ Add total optimal were-form time for Woodie.
 [DONE] Clarify what is hard materials for Woodie.
 [DONE] Damage protection and durability of hardwood hat.
 
-GENERAL:
-[DONE]Where applicable, change percent faster to less time and list the total time.
+WOLFGANG:
+[DONE}Remove the extra space Klei did for Wolfgang's supergym skill.
 
 --]]
 
@@ -100,8 +102,14 @@ if GLOBAL.CurrentRelease.GreaterOrEqualTo("R30_ST_WOODWOLFWORM") then
 	GLOBAL.STRINGS.SKILLTREE.WOLFGANG.WOLFGANG_ALLEGIANCE_SHADOW_1_DESC = "The Queen will reward your loyalty with devastating strength.\nTake 10% less damage from Shadow Aligned creatures.\nAdd +10% of total damage fighting Lunar-aligned creatures when Mighty."
 
 	GLOBAL.STRINGS.SKILLTREE.WOLFGANG.WOLFGANG_ALLEGIANCE_LUNAR_1_DESC = "The Cryptic Founder will reward your curiosity by revealing the enemy's weaknesses.\nTake 10% less damage from Lunar Aligned creatures.\nAdd +10% of total damage fighting Shadow-aligned creatures when Mighty."
-
-
+	
+	--Fixes the extra space after new line that Klei did.
+	GLOBAL.STRINGS.SKILLTREE.WOLFGANG_GYM_OVERBUFF_1_DESC = "Use the gym to push your Mighty Meter past its limit.\nMighty Meter can go up to 110."
+	GLOBAL.STRINGS.SKILLTREE.WOLFGANG_GYM_OVERBUFF_2_DESC = "Use the gym to push your Mighty Meter past its limit.\nMighty Meter can go up to 120."
+	GLOBAL.STRINGS.SKILLTREE.WOLFGANG_GYM_OVERBUFF_3_DESC = "Use the gym to push your Mighty Meter past its limit.\nMighty Meter can go up to 130."
+	GLOBAL.STRINGS.SKILLTREE.WOLFGANG_GYM_OVERBUFF_4_DESC = "Use the gym to push your Mighty Meter past its limit.\nMighty Meter can go up to 140."
+	GLOBAL.STRINGS.SKILLTREE.WOLFGANG_GYM_OVERBUFF_5_DESC = "Use the gym to push your Mighty Meter past its limit.\nMighty Meter can go up to 150."
+	
 	--------------------------------------------------------------------WORMWOOD SKILL TREE-------------------------------------------------------
 	GLOBAL.STRINGS.SKILLTREE.WORMWOOD.IDENTIFY_PLANTS_DESC = "Seeds that you've planted and are still in seed form can be examined to identify what they will grow into."
 	
@@ -111,8 +119,8 @@ if GLOBAL.CurrentRelease.GreaterOrEqualTo("R30_ST_WOODWOLFWORM") then
     GLOBAL.STRINGS.SKILLTREE.WORMWOOD.REEDSCRAFTING_DESC = "Craft Monkeytails at the cost of 1 Banana, 4 Reeds, and 15 health."
 	GLOBAL.STRINGS.SKILLTREE.WORMWOOD.LUREPLANTCRAFTING_DESC = "Craft Lureplants at the cost of 2 Compost Wraps, 5 Leafy Meat and 25 health."
 	
-	GLOBAL.STRINGS.SKILLTREE.WORMWOOD.MUSHROOMPLANTER_RATEBONUS_1_DESC = "Mushrooms planted in a Mushroom Planter grows in 10% less time.\nTotal grow time is 3.375 days (27 minutes).\nDefault 3.75 days (30 minutes)."
-	GLOBAL.STRINGS.SKILLTREE.WORMWOOD.MUSHROOMPLANTER_RATEBONUS_2_DESC = "Mushrooms planted in a Mushroom Planter grows in 20% less time.\nTotal grow time is 3 days (24 minutes).\nDefault is 3.75 days (30 minutes)."
+	GLOBAL.STRINGS.SKILLTREE.WORMWOOD.MUSHROOMPLANTER_RATEBONUS_1_DESC = "Mushrooms planted in a Mushroom Planter grows in 10% less time.\nTotal grow time is 3.375 days (27 minutes). Default is 3.75 days (30 minutes)."
+	GLOBAL.STRINGS.SKILLTREE.WORMWOOD.MUSHROOMPLANTER_RATEBONUS_2_DESC = "Mushrooms planted in a Mushroom Planter grows in 20% less time.\nTotal grow time is 3 days (24 minutes). Default is 3.75 days (30 minutes)."
 	GLOBAL.STRINGS.SKILLTREE.WORMWOOD.MUSHROOMPLANTER_UPGRADE_DESC = "Mushrooms planted in a Mushroom Planter produce 6 mushrooms instead of 4 mushrooms."
 	GLOBAL.STRINGS.SKILLTREE.WORMWOOD.MOON_CAP_EATING_DESC = "Moon Shrooms are plantable in Mushroom Planters.\nAfter eating a Moon Shroom, you will yawn and release a sleep-inducing spore cloud.\nWhen releasing said spore cloud, your yawn action will not be interrupted."
 	
@@ -148,12 +156,12 @@ if GLOBAL.CurrentRelease.GreaterOrEqualTo("R30_ST_WOODWOLFWORM") then
 
 	GLOBAL.STRINGS.SKILLTREE.WOODIE.WOODIE_CURSE_BEAVER_1_DESC = "Mine 2.5x more efficiently in your Werebeaver form."
 	GLOBAL.STRINGS.SKILLTREE.WOODIE.WOODIE_CURSE_BEAVER_2_DESC = "Chop 1.8x more efficiently in your Werebeaver form."
-	GLOBAL.STRINGS.SKILLTREE.WOODIE.WOODIE_CURSE_BEAVER_3_DESC = "Chop, mine and break hard materials in your Werebeaver form.\nHard materials are Dreadstone structures and Ryftstals."
+	GLOBAL.STRINGS.SKILLTREE.WOODIE.WOODIE_CURSE_BEAVER_3_DESC = "Chop, mine and break hard materials in your Werebeaver form.\nHard materials are Dreadstone and Ryftstals."
 
 	GLOBAL.STRINGS.SKILLTREE.WOODIE.WOODIE_CURSE_MOOSE_1_DESC = "Your Weremoose form walks at a normal speed and is 15% less groggy after hitting obstacles."
 	GLOBAL.STRINGS.SKILLTREE.WOODIE.WOODIE_CURSE_MOOSE_2_DESC = "Gain 1.5 health every 5 seconds in your Weremoose form."
 
-	GLOBAL.STRINGS.SKILLTREE.WOODIE.WOODIE_CURSE_GOOSE_1_DESC = "Gain 60% speed multiplier instead of 45% speed multiplier in your Weregoose form."
+	GLOBAL.STRINGS.SKILLTREE.WOODIE.WOODIE_CURSE_GOOSE_1_DESC = "Gain a 60% speed multiplier instead of a 45% speed multiplier in your Weregoose form."
 	GLOBAL.STRINGS.SKILLTREE.WOODIE.WOODIE_CURSE_GOOSE_3_DESC = "Dodge only one incoming attack every 5 seconds in Weregoose form."
 
 	GLOBAL.STRINGS.SKILLTREE.WOODIE.WOODIE_CURSE_EPIC_BEAVER_DESC = "The Werebeaver smacks the ground with his tail, destroying everything around him.\nReduces the were-meter by 5 upon use."
