@@ -104,11 +104,11 @@ if GLOBAL.CurrentRelease.GreaterOrEqualTo("R30_ST_WOODWOLFWORM") then
 	GLOBAL.STRINGS.SKILLTREE.WOLFGANG.WOLFGANG_ALLEGIANCE_LUNAR_1_DESC = "The Cryptic Founder will reward your curiosity by revealing the enemy's weaknesses.\nTake 10% less damage from Lunar Aligned creatures.\nAdd +10% of total damage fighting Shadow-aligned creatures when Mighty."
 	
 	--Fixes the extra space after new line that Klei did.
-	GLOBAL.STRINGS.SKILLTREE.WOLFGANG_GYM_OVERBUFF_1_DESC = "Use the gym to push your Mighty Meter past its limit.\nMighty Meter can go up to 110."
-	GLOBAL.STRINGS.SKILLTREE.WOLFGANG_GYM_OVERBUFF_2_DESC = "Use the gym to push your Mighty Meter past its limit.\nMighty Meter can go up to 120."
-	GLOBAL.STRINGS.SKILLTREE.WOLFGANG_GYM_OVERBUFF_3_DESC = "Use the gym to push your Mighty Meter past its limit.\nMighty Meter can go up to 130."
-	GLOBAL.STRINGS.SKILLTREE.WOLFGANG_GYM_OVERBUFF_4_DESC = "Use the gym to push your Mighty Meter past its limit.\nMighty Meter can go up to 140."
-	GLOBAL.STRINGS.SKILLTREE.WOLFGANG_GYM_OVERBUFF_5_DESC = "Use the gym to push your Mighty Meter past its limit.\nMighty Meter can go up to 150."
+	GLOBAL.STRINGS.SKILLTREE.WOLFGANG.WOLFGANG_GYM_OVERBUFF_1_DESC = "Use the gym to push your Mighty Meter past its limit.\nMighty Meter can go up to 110."
+	GLOBAL.STRINGS.SKILLTREE.WOLFGANG.WOLFGANG_GYM_OVERBUFF_2_DESC = "Use the gym to push your Mighty Meter past its limit.\nMighty Meter can go up to 120."
+	GLOBAL.STRINGS.SKILLTREE.WOLFGANG.WOLFGANG_GYM_OVERBUFF_3_DESC = "Use the gym to push your Mighty Meter past its limit.\nMighty Meter can go up to 130."
+	GLOBAL.STRINGS.SKILLTREE.WOLFGANG.WOLFGANG_GYM_OVERBUFF_4_DESC = "Use the gym to push your Mighty Meter past its limit.\nMighty Meter can go up to 140."
+	GLOBAL.STRINGS.SKILLTREE.WOLFGANG.WOLFGANG_GYM_OVERBUFF_5_DESC = "Use the gym to push your Mighty Meter past its limit.\nMighty Meter can go up to 150."
 	
 	--------------------------------------------------------------------WORMWOOD SKILL TREE-------------------------------------------------------
 	GLOBAL.STRINGS.SKILLTREE.WORMWOOD.IDENTIFY_PLANTS_DESC = "Seeds that you've planted and are still in seed form can be examined to identify what they will grow into."
