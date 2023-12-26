@@ -2,28 +2,22 @@
 Github page to track changes: 
 https://github.com/lakhnishMonster/SkillTreeDescriptions
 
-TODO V1.8: 
-GENERAL:
-[DONE]Where applicable, change percent faster to less time and list the total time.
-
-WILSON:
-[DONE] Add alignment damage to Wilson's skill tree.
-[REMOVED] Double check Wilson's torch skill stats.
+V 2.0+ Patch Notes: 
+NOTE TO SELF:
+[DONE] Added a variable for GLOBAL.STRINGS.SKILLTREE for legibility purposes
 
 WORMWOOD:
-[DONE] Add minion limit to Wormwood.
-[DONE] Fix typo in Wormwood's Carrat skill.
-[DONE] Add total time for Wormwood's mushroom planter perk.
-
-WOODIE:
-[DONE]Double check Woodie's stats.
-
-Add total optimal were-form time for Woodie.
-[DONE] Clarify what is hard materials for Woodie.
-[DONE] Damage protection and durability of hardwood hat.
+[DONE] Fixed time that lightbulbs are alive for. 1 day -> 2.5 days
 
 WOLFGANG:
-[DONE}Remove the extra space Klei did for Wolfgang's supergym skill.
+[DONE] Fixed damage modifier effect being cut off for being lunar-aligned.
+
+WIGFRID:
+[DONE] Added Wigfrid's skills
+Note: Idk how much durability is restored by Commander's Helm Enhancement II nor Elding Spear Enhancement I. I don't think I can fit it in the latter one anyways.
+
+WILLOW:
+[TODO] Add Willow's skills
 
 --]]
 
@@ -35,7 +29,7 @@ STR = GLOBAL.STRINGS.SKILLTREE
 	STR.WORMWOOD.COUNT_LOCK_1_DESC = "Learn 5 left-branch skills to unlock."
 	STR.WORMWOOD.COUNT_LOCK_2_DESC = "Learn 5 right-branch skills to unlock."
 
--------------------------------------------------------------------WILSON SKILL TREE----------------------------------------------------
+-------WILSON SKILL TREE----------------------------------------------------
 
 	STR.WILSON.WILSON_TORCH_1_DESC = "Torches last 16% longer."
 	STR.WILSON.WILSON_TORCH_2_DESC = "Torches last 32% longer."
@@ -92,16 +86,16 @@ end
 	STR.WILSON.WILSON_ALLEGIANCE_LUNAR_DESC = "Transmute 3 Infused Shards into 1 Pure Enlightenment.\nTransumte 1 Pure Enlightenment into 2 Infused Shards.\nObtain alignment-damage perk."
 
 
--------------------------------------------------------------------------WORMWOLFWOOD UPDATE-----------------------------------------------------------------------------
+-------WORMWOLFWOOD UPDATE----------------------------------------------
 if GLOBAL.CurrentRelease.GreaterOrEqualTo("R30_ST_WOODWOLFWORM") then
 	
-	---------------------------------------------------------------------WOLFGANG SKILL TREE---------------------------------------------------
+	---WOLFGANG SKILL TREE---
 	STR.WOLFGANG.WOLFGANG_DUMBBELL_CRAFTING_DESC = "Learn to craft several new dumbbells.\nCan craft a Red Gembell, a Blue Gembell and a Thermbell."
 	STR.WOLFGANG.WOLFGANG_COACH_DESC = "Learn to craft a Coaching Whistle.\nEvery 10-40 seconds while coaching as Normal Wolfgang, friends with less than 75% sanity gain 5 sanity and for 10 seconds, doubles the damage of any recruited follower."
 
-	STR.WOLFGANG.WOLFGANG_ALLEGIANCE_SHADOW_1_DESC = "The Queen will reward your loyalty with devastating strength.\nTake 10% less damage from Shadow Aligned creatures.\nAdd +10% of total damage fighting Lunar-aligned creatures when Mighty."
+	STR.WOLFGANG.WOLFGANG_ALLEGIANCE_SHADOW_1_DESC = "Take 10% less damage from Shadow Aligned creatures.\nAdd +10% of total damage fighting Lunar-aligned creatures when Mighty."
 
-	STR.WOLFGANG.WOLFGANG_ALLEGIANCE_LUNAR_1_DESC = "The Cryptic Founder will reward your curiosity by revealing the enemy's weaknesses.\nTake 10% less damage from Lunar Aligned creatures.\nAdd +10% of total damage fighting Shadow-aligned creatures when Mighty."
+	STR.WOLFGANG.WOLFGANG_ALLEGIANCE_LUNAR_1_DESC = "Take 10% less damage from Lunar Aligned creatures.\nAdd +10% of total damage fighting Shadow-aligned creatures when Mighty."
 	
 	--Fixes the extra space after new line that Klei did.
 	STR.WOLFGANG.WOLFGANG_GYM_OVERBUFF_1_DESC = "Use the gym to push your Mighty Meter past its limit.\nMighty Meter can go up to 110."
@@ -110,7 +104,7 @@ if GLOBAL.CurrentRelease.GreaterOrEqualTo("R30_ST_WOODWOLFWORM") then
 	STR.WOLFGANG.WOLFGANG_GYM_OVERBUFF_4_DESC = "Use the gym to push your Mighty Meter past its limit.\nMighty Meter can go up to 140."
 	STR.WOLFGANG.WOLFGANG_GYM_OVERBUFF_5_DESC = "Use the gym to push your Mighty Meter past its limit.\nMighty Meter can go up to 150."
 	
-	--------------------------------------------------------------------WORMWOOD SKILL TREE-------------------------------------------------------
+	---WORMWOOD SKILL TREE---
 	STR.WORMWOOD.IDENTIFY_PLANTS_DESC = "Seeds that you've planted and are still in seed form can be examined to identify what they will grow into."
 	
 	STR.WORMWOOD.SAPLINGCRAFTING_DESC = "Craft Lunar Saplings at the cost of 5 Twigs and 5 health."
@@ -144,7 +138,7 @@ if GLOBAL.CurrentRelease.GreaterOrEqualTo("R30_ST_WOODWOLFWORM") then
 	STR.WORMWOOD.LUNAR_GEAR_2_DESC = "Summon vines to join the fray while attacking with Brightshade melee weapons.\nVines deal 70 regular damage and 15 planar damage.\nVines have a 20% chance to spawn and attack once before disappearing."
 	
 	STR.WORMWOOD.LUNAR_MUTATIONS_1_DESC = "Transform 1 Carrot into a Carrat at the cost of 5 health (limit of 4 Carrats).\nCarrats you've created will follow you for 3 days and retrieve food they find on the ground.\nIf not already lunar-aligned, obtain alignment-damage perk."
-	STR.WORMWOOD.LUNAR_MUTATIONS_2_DESC = "Transform 1 Lightbulb into a Bulbous Lightbug at the cost of 10 health.\nBulbous Lightbugs you've created will follow you for 1 day.\nLimit of 6 Bulbous Lightbulbs."
+	STR.WORMWOOD.LUNAR_MUTATIONS_2_DESC = "Transform 1 Lightbulb into a Bulbous Lightbug at the cost of 10 health.\nBulbous Lightbugs you've created will follow you for 2.5 days.\nLimit of 6 Bulbous Lightbulbs."
 	STR.WORMWOOD.LUNAR_MUTATIONS_3_DESC = "Transform 1 Dragonfruit into a Saladmander at the cost of 25 health (limit of 2).\nSaladmanders you've created will follow you for 2 days and attack things you do.\nPet Saladmanders will regenerate 5 health every 2.5 seconds & deal 40 damage."
 
 	--------------------------------------------------------------------WOODIE SKILL TREE-------------------------------------------------------
@@ -185,11 +179,44 @@ if GLOBAL.CurrentRelease.GreaterOrEqualTo("R30_ST_WOODWOLFWORM") then
 
 end
 
+-------WILFRED UPDATE------------------------------------------------------
 if GLOBAL.CurrentRelease.GreaterOrEqualTo("R32_ST_WATHGRITHRWILLOW") then
 	
+	---WIGFRID SKILL TREE---
 	
+	--HEADLINER
+	STR.WATHGRITHR.WATHGRITHR_SONGS_INSTANTSONG_CD_DESC = "Battle Stingers will no longer consume Inspiration, and instead have a 3 minute cooldown."
+	STR.WATHGRITHR.WATHGRITHR_SONGS_CONTAINER_DESC = "Learn to craft the Battle Call Canister, a storage solution for Battle Songs and Battle Stingers. Said canister has 8 inventory slots."
+	STR.WATHGRITHR.WATHGRITHR_SONGS_REVIVEWARRIOR_DESC = "Learn to craft the Warrior's Reprise, which brings upto 2 allies back to life at the cost of 2 Battle Stingers."
 	
+	--ARSENAL
+		--spear
+		STR.WATHGRITHR.WATHGRITHR_ARSENAL_SPEAR_1_DESC = "Inspiration gain rate will increased by 25% when attacking with Battle Spears."
+		STR.WATHGRITHR.WATHGRITHR_ARSENAL_SPEAR_2_DESC = "Inspiration gain rate will increased by 50% when attacking with Battle Spears."
+		STR.WATHGRITHR.WATHGRITHR_ARSENAL_SPEAR_3_DESC = "Learn to craft the Lightning Spear: an electric weapon that does more damage to wet targets."
+		STR.WATHGRITHR.WATHGRITHR_ARSENAL_SPEAR_4_DESC = "The Lightning Spear can do a special 68 damage dash attack.\nThis attack repairs at most 2% durability to Charged Lightning Spears if it hits a target.\nCharged Lightning Spears requires Elding Spear Enhancement II."
+
+		--helmet
+		STR.WATHGRITHR.WATHGRITHR_ARSENAL_HELMET_1_DESC = "Battle Helms now have 577 durabilty when worn by Wigfrid (default: 525 durability; 10% increase)."
+		STR.WATHGRITHR.WATHGRITHR_ARSENAL_HELMET_2_DESC = "Battle Helms now have 630 durabilty when worn by Wigfrid (default: 525 durability; 20% increase)."
+		STR.WATHGRITHR.WATHGRITHR_ARSENAL_HELMET_3_DESC = "Learn to craft the Commander's Helm: a helm that protects against knockback attacks. Said helmet provides 80% damage protection and has 630 durability."
+		STR.WATHGRITHR.WATHGRITHR_ARSENAL_HELMET_4_DESC = "The Commander's Helm now provides 8 planar defense."
+		STR.WATHGRITHR.WATHGRITHR_ARSENAL_HELMET_5_DESC = "Wigfrid's natural healing ability will repair 3.5 durability to the Commander's Helm when she continues to fight at maximum health."
+
+		--shield
+		STR.WATHGRITHR.WATHGRITHR_ARSENAL_SHIELD_1_DESC = "Learn to craft the Battle Rönd. This shield can be used to attack for 51 damage, blocks attacks upon right click for 2 seconds, and provides 85% damage protection while equipped.\nWigfrid must have this skilled unlocked to be able to equip the shield.\nOther players cannot use this shield."
+		STR.WATHGRITHR.WATHGRITHR_ARSENAL_SHIELD_2_DESC = "The Battle Rönd now block attacks for 5 seconds."
+		
+	--RIDER
+	STR.WATHGRITHR.WATHGRITHR_BEEFALO_SADDLE_DESC = "Learn to craft a new Beefalo Saddle that protects your Beefalo.\nSaid saddle gives your beefalo a 20% speed boost, 40% damage protection and +5 extra damage."
+
 	
+	--AFFINITY
+	STR.WATHGRITHR.WATHGRITHR_ALLEGIANCE_LUNAR_DESC = "Wigfrid gains alignment damage perk. Learn to craft the Enlightened Lullaby: Allies take 10% less damage from Lunar Aligned enemies and deal 5% bonus damage to Shadow Aligned enemies."
+	STR.WATHGRITHR.WATHGRITHR_ALLEGIANCE_SHADOW_DESC = "Wigfrid gains alignment damage perk. Learn to craft the Dark Lament: Allies take 10% less damage from Shadow Aligned enemies and deal 5% bonus damage to Lunar Aligned enemies."
+	
+	---WILLOW SKILL TREE---
+
 	
 	
 	
