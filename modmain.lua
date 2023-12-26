@@ -195,7 +195,8 @@ if GLOBAL.CurrentRelease.GreaterOrEqualTo("R32_ST_WATHGRITHRWILLOW") then
 		STR.WATHGRITHR.WATHGRITHR_ARSENAL_SPEAR_2_DESC = "Inspiration gain rate will increased by 50% when attacking with Battle Spears."
 		STR.WATHGRITHR.WATHGRITHR_ARSENAL_SPEAR_3_DESC = "Learn to craft the Lightning Spear: an electric weapon that does more damage to wet targets."
 		STR.WATHGRITHR.WATHGRITHR_ARSENAL_SPEAR_4_DESC = "The Lightning Spear can do a special 68 damage dash attack.\nThis attack repairs at most 2% durability to Charged Lightning Spears if it hits a target.\nCharged Lightning Spears requires Elding Spear Enhancement II."
-
+		STR.WATHGRITHR.WATHGRITHR_ARSENAL_SPEAR_5_DESC = "Upgrade the Elding Spear to a Charged Lightning Spear using Restrained Static, which deals +20 Planar Damage."
+		
 		--helmet
 		STR.WATHGRITHR.WATHGRITHR_ARSENAL_HELMET_1_DESC = "Battle Helms now have 577 durabilty when worn by Wigfrid (default: 525 durability; 10% increase)."
 		STR.WATHGRITHR.WATHGRITHR_ARSENAL_HELMET_2_DESC = "Battle Helms now have 630 durabilty when worn by Wigfrid (default: 525 durability; 20% increase)."
