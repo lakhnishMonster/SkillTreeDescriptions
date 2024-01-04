@@ -1,8 +1,8 @@
 name = "Accurate Skill Tree Descriptions"
-description = "This mod describes the skill trees of characters in significantly more detail than what Klei did.\n\nNOTE: All x-aligned characters take 10% less damage from their side and deals 10% more damage to the opposing side.\n\nThis perk applies whenever you choose an alignment skill but it is not listed in every alignment skill due to limited space."
+description = "This mod describes the skill trees of characters in significantly more detail than what Klei did.\n\nNOTE: The phrase \"alignment damage perk\" means characters take 10% less damage from their x-aligned side and deals 10% more damage to the opposing side.\n\nThis term is used when the full description can't be listed due to limited space.\n\nCurrently applicable to Wilson, Willow & Wigfrid."
 author = "lakhnish_monster"
 priority = 1000000
-version = "2.1"
+version = "2.2"
 forumthread = ""
 icon_atlas = "modicon.xml"
 icon = "modicon.tex"

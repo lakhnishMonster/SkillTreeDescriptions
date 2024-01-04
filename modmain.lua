@@ -182,7 +182,7 @@ end
 -------WILFRED UPDATE------------------------------------------------------
 if GLOBAL.CurrentRelease.GreaterOrEqualTo("R32_ST_WATHGRITHRWILLOW") then
 	
-	---WIGFRID SKILL TREE---
+	---WIGFRID SKILL TREE---------------------------------------
 	
 	--HEADLINER
 	STR.WATHGRITHR.WATHGRITHR_SONGS_INSTANTSONG_CD_DESC = "Battle Stingers will no longer consume Inspiration, and instead have a 3 minute cooldown."
@@ -211,21 +211,41 @@ if GLOBAL.CurrentRelease.GreaterOrEqualTo("R32_ST_WATHGRITHRWILLOW") then
 	--RIDER
 	STR.WATHGRITHR.WATHGRITHR_BEEFALO_SADDLE_DESC = "Learn to craft a new Beefalo Saddle that protects your Beefalo.\nSaid saddle gives your beefalo a 20% speed boost, 40% damage protection and +5 extra damage."
 
-	
 	--AFFINITY
 	STR.WATHGRITHR.WATHGRITHR_ALLEGIANCE_LUNAR_DESC = "Wigfrid gains alignment damage perk. Learn to craft the Enlightened Lullaby: Allies take 10% less damage from Lunar Aligned enemies and deal 5% bonus damage to Shadow Aligned enemies."
 	STR.WATHGRITHR.WATHGRITHR_ALLEGIANCE_SHADOW_DESC = "Wigfrid gains alignment damage perk. Learn to craft the Dark Lament: Allies take 10% less damage from Shadow Aligned enemies and deal 5% bonus damage to Lunar Aligned enemies."
 	
-	---WILLOW SKILL TREE---
+	---WILLOW SKILL TREE---------------------------------------
+	-- LIGHTER
+	STR.WILLOW.WILLOW_CONTROLLED_BURN_2_DESC = "Creatures burn 3x longer."
+	STR.WILLOW.WILLOW_CONTROLLED_BURN_3_DESC = "Your fires deal 1.5x more damage to creatures over time."
+	
+	STR.WILLOW.WILLOW_LIGHTRADIUS_1_DESC = "Your lighter is 2.5x brighter."
+	STR.WILLOW.WILLOW_LIGHTRADIUS_2_DESC = "Your lighter is 4x brighter."
 
-	
-	
-	
-	
-	
-	
-	
-	
+	STR.WILLOW.WILLOW_FIRE_BALL_DESC = "Use Embers to create a ball of flame for light and heat that lasts for 1 day."
+
+	-- BERNIE
+	STR.WILLOW.WILLOW_BERNIESPEED_1_DESC = "Bernie's movement speed is 15% faster."
+	STR.WILLOW.WILLOW_BERNIESPEED_2_DESC = "Bernie's movement speed is 30% faster."
+
+	STR.WILLOW.WILLOW_BERNIESANITY_1_DESC = "Bernie will become animated when Willow's sanity falls below 36."
+	STR.WILLOW.WILLOW_BERNIESANITY_2_DESC = "Bernie will become animated when Willow's sanity falls below 60."
+
+	STR.WILLOW.WILLOW_BERNIEREGEN_1_DESC = "Bernie's regenerates 0.5 health every second."
+	STR.WILLOW.WILLOW_BERNIEREGEN_2_DESC = "Bernie's regenerates 1 health every second."
+
+	STR.WILLOW.WILLOW_BERNIEHEALTH_1_DESC = "Bernie's total health is 15% higher for a total of 1,150 HP (default: 1000 HP)."
+	STR.WILLOW.WILLOW_BERNIEHEALTH_2_DESC = "Bernie's total health is 30% higher for a total of 1,300 HP (default: 1000 HP)."
+
+	STR.WILLOW.WILLOW_BURNINGBERNIE_DESC = "Igniting Bernie will give him a firey aura for a short time.\nEnemies that attack an ignited Bernie will take 50 damage back."
+
+	-- ALLIEGIANCE
+	STR.WILLOW.WILLOW_ALLEGIANCE_SHADOW_1_DESC = "The Queen will reward your loyalty with the power of shadow fire.\nSummon multiple tendrils of black flame to seek out hostile targets.\nGain alignment damage perk."
+	STR.WILLOW.WILLOW_ALLEGIANCE_LUNAR_1_DESC = "The Cryptic Founder will reward your curiosity with the formula for lunar flames. Use Embers to blast cold lunar flames that deals 20 regular damage and 30 planar damage for 4 seconds. Gain alignment damage perk. "
+
+	STR.WILLOW.WILLOW_ALLEGIANCE_SHADOW_2_DESC = "Tap into the darkness to turn Bernie into a shadow-aligned planar entity with 5 planar damage and 15 planar defense.\nWillow gains alignment damage perk."
+	STR.WILLOW.WILLOW_ALLEGIANCE_LUNAR_2_DESC = "Entreat the moon to turn Bernie into a lunar-aligned planar entity with 5 planar damage and 15 planar defense.\nWillow gains alignment damage perk."
 	
 end
 
