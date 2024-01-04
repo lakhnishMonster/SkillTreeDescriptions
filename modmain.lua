@@ -209,8 +209,12 @@ if GLOBAL.CurrentRelease.GreaterOrEqualTo("R32_ST_WATHGRITHRWILLOW") then
 		STR.WATHGRITHR.WATHGRITHR_ARSENAL_SHIELD_2_DESC = "The Battle Rönd now block attacks for 5 seconds."
 		
 	--RIDER
+	if GetModConfigData("WIG_BEEF_SONG") == "Disabled" then
+		RemapSoundEvent("dontstarve/music/music_wigfrid_valkyrie", "")
+	end	
+	STR.WATHGRITHR.WATHGRITHR_BEEFALO_3_DESC = "Riding a beefalo will make your inspiration slowly rise until it reaches the halfway mark.\nPlays a song whenever you ride your beefalo."
 	STR.WATHGRITHR.WATHGRITHR_BEEFALO_SADDLE_DESC = "Learn to craft a new Beefalo Saddle that protects your Beefalo.\nSaid saddle gives your beefalo a 20% speed boost, 40% damage protection and +5 extra damage."
-
+	
 	--AFFINITY
 	STR.WATHGRITHR.WATHGRITHR_ALLEGIANCE_LUNAR_DESC = "Wigfrid gains alignment damage perk. Learn to craft the Enlightened Lullaby: Allies take 10% less damage from Lunar Aligned enemies and deal 5% bonus damage to Shadow Aligned enemies."
 	STR.WATHGRITHR.WATHGRITHR_ALLEGIANCE_SHADOW_DESC = "Wigfrid gains alignment damage perk. Learn to craft the Dark Lament: Allies take 10% less damage from Shadow Aligned enemies and deal 5% bonus damage to Lunar Aligned enemies."

@@ -2,7 +2,7 @@ name = "Accurate Skill Tree Descriptions"
 description = "This mod describes the skill trees of characters in significantly more detail than what Klei did.\n\nNOTE: The phrase \"alignment damage perk\" means characters take 10% less damage from their x-aligned side and deals 10% more damage to the opposing side.\n\nThis term is used when the full description can't be listed due to limited space.\n\nCurrently applicable to Wilson, Willow & Wigfrid."
 author = "lakhnish_monster"
 priority = 1000000
-version = "2.2"
+version = "2.3"
 forumthread = ""
 icon_atlas = "modicon.xml"
 icon = "modicon.tex"
@@ -36,5 +36,16 @@ configuration_options = {
 			{description = "Show All Default", data = "all_default", hover = "Lists the default speed of Wilson's beard growth for all skills."},
 		},
 		default = "no_default",
+	},
+	
+	{
+		name = "WIG_BEEF_SONG",
+		label = "Wigfrid's Beefalo Song",
+		hover = "Enable or disable the song that plays when riding a Beefalo as Wigfrid with the Noble Mount III skill enabled.",
+		options = {
+			{description = "Enabled", data = "Enabled"},
+			{description = "Disabled", data = "Disabled"},
+		},
+		default = "Enabled",
 	},
 }
